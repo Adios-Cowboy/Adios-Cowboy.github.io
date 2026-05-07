@@ -1,0 +1,144 @@
+
+a:link {
+	color: #990000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #990000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+	color: #000000;
+	font-family: Tahoma, Geneva, sans-serif;
+	}
+	
+
+strong a:active {
+	text-decoration: underline;
+	color: #000000;
+}
+
+
+.QStyle-0{font-size:16px;line-height:150%;} /* eb4d00 */
+.QStyle-1{font-size:24px;
+	color:#eb4d00;
+	/* color: #000000; */
+	border-bottom: 1px solid #aaaaaa;
+	padding-bottom: 0.3em;padding-top:0.6em;
+	font-family: Tahoma, Geneva, sans-serif;
+} /* #eb4d00 */
+
+.margin {
+	line-height: 1px;
+}
+
+ ul {
+	list-style-position: outside;
+	list-style-type: none;
+	padding-left:0px; 
+} 
+
+/* #News li:nth-child(n+16) {
+    display:none;
+}
+
+
+#Publications li{
+	line-height: 1.5em;
+    margin-bottom: 0.7em;
+} 
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+body{
+/* 	transform: scale(1.25);
+	 transform-origin: top;  */
+	background-color:#FFFFFF;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:30px;
+	padding-bottom:30px;
+	max-width:900px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	
+u{
+	text-decoration-thickness: 1px;
+    text-underline-offset: 0.28em;
+	}
+
+/* ul {
+	padding-left: 16px;
+	} */
+
+.caption {
+	font-size: 30px;
+	font-weight: normal;
+	color: #000;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+		
+.content {
+	font-size: 16px;
+	font-family: Tahoma, Geneva, sans-serif;
+	/* text-align: justify; */
+	line-height:150%;
+}
+
+.margin {
+	font-size: 10px;
+	line-height: 10px;
+		}
+
+.margin-small {
+	font-size: 5px;
+	line-height: 5px;
+}
+
+.margin-large {
+	font-size: 16px;
+	line-height: 16px;
+}
+
+
+ul{
+	list-style-position: outside;
+	list-style-type: none;
+/* 	font-size:90%;
+	font-family:Arial; */
+	padding-left:0px;
+}
+
+html{
+	background-color:#E0E0E0;
+}
