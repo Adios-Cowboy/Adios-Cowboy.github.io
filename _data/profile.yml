@@ -1,0 +1,57 @@
+primary_name: "Wenli Wu"
+secondary_name: "吴文隶"
+navbar_name: "Wenli Wu"
+
+positions:
+  - name: B.Eng. Student in Internet of Things Engineering
+  - name: South China Normal University
+
+email: "20238132076@m.scnu.edu.cn"
+github: Adios-Cowboy
+orcid: 0009-0005-3324-8082
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am an undergraduate student in Internet of Things Engineering at
+    <a href="https://www.scnu.edu.cn/" target="_blank" rel="noopener">South China Normal University (SCNU)</a>.
+    Advised by Prof. <a href="http://eie.scnu.edu.cn/a/20240301/234.html" target="_blank" rel="noopener">Xiaoyu Tang</a>,
+    I joined the <a href="https://github.com/SCNU-RISLAB" target="_blank" rel="noopener">Robotics and Intelligent Perception Laboratory (RI-Lab)</a>
+    in October 2023 and have served as a Research Assistant since May 2026.
+  </p>
+  <p>
+    My research focuses on high-fidelity, interactive digital twins and real-time perception in challenging environments,
+    including underwater scenes and remote sensing. I currently work on <strong>3D scene reconstruction</strong>,
+    <strong>lightweight perception</strong>, and <strong>edge-cloud collaborative deployment</strong>.
+    I am also interested in multimodal interaction and expressive motion generation for dynamic digital environments.
+  </p>
+  <p>
+    Outside research, I am a drummer and a long-distance runner. I hold Grade II Public Athlete Certification
+    (Marathon) from the Chinese Athletics Association.
+  </p>
+  <div class="research-interests" aria-label="Research interests">
+    <span>3D Reconstruction</span><span>Underwater Vision</span><span>Efficient Perception</span><span>Edge–Cloud Systems</span>
+  </div>
+
+portrait_url: /assets/images/profile/wenli-wu.png
+portrait_caption: Wenli Wu
+
+education:
+  - name: South China Normal University
+    dept: School of Data Science and Engineering
+    position: B.Eng. in Internet of Things Engineering
+    date: 2023 – Present
+
+experience:
+  - name: Robotics and Intelligent Perception Laboratory (RI-Lab)
+    dept: South China Normal University
+    position: Research Assistant
+    date: May 2026 – Present
+
+awards:
+  - name: First Prize of Comprehensive Scholarship, South China Normal University
+    date: 2025
+  - name: First Prize, Guangdong Province, CUMCM
+    date: 2025
+  - name: First Prize, Guangdong Province, 18th Challenge Cup
+    date: 2025

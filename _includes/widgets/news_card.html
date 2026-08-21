@@ -1,0 +1,18 @@
+{% assign news_by_year = site.news | sort: "date" | reverse | slice: 0, include.limit | group_by_exp: "item", "item.date | date: '%Y'" %}
+<section class="card border-0 shadow-sm bg-white section-card mt-3">
+  <div class="card-body p-4">
+    <h2 class="section-title"><i class="fas fa-rss"></i> News</h2>
+    <div class="news-list small">
+      {% for year in news_by_year %}
+      <div class="news-year-group {% unless forloop.first %}border-top{% endunless %}">
+        <div class="news-year">{{ year.name }}</div>
+        <div class="news-items">
+          {% for item in year.items %}
+          <div class="news-item"><div>{{ item.title }}</div><time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b" }}</time></div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

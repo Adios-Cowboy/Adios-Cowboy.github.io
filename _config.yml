@@ -1,0 +1,19 @@
+title: "Wenli Wu | Academic Homepage"
+description: "Wenli Wu is an undergraduate researcher at South China Normal University working on 3D reconstruction, lightweight perception, and edge-cloud collaboration."
+url: "https://adios-cowboy.github.io"
+baseurl: ""
+lang: en
+timezone: Asia/Shanghai
+
+markdown: kramdown
+collections:
+  publications:
+    output: false
+  news:
+    output: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

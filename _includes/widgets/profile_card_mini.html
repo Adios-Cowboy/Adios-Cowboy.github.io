@@ -1,0 +1,21 @@
+<div class="row sticky-top profile-sticky">
+  <div class="col">
+    <div class="card border-0 shadow-sm bg-white profile-card">
+      <div class="card-body px-4 pt-4 pb-3 text-center">
+        <img src="{{ site.data.profile.portrait_url | relative_url }}" class="profile-portrait" alt="Portrait of Wenli Wu" title="{{ site.data.profile.portrait_caption }}">
+        <h1 class="profile-name mt-3 mb-0">{{ site.data.profile.primary_name }}</h1>
+        {% if site.data.profile.secondary_name %}<div class="profile-name-cn">{{ site.data.profile.secondary_name }}</div>{% endif %}
+        <div class="profile-position mt-3">
+          {% for position in site.data.profile.positions %}{{ position.name }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}
+        </div>
+        <a class="email-text d-inline-block mt-3" href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>
+        <div class="profile-links mt-3" aria-label="Academic profiles">
+          {% if site.data.profile.github %}<a target="_blank" rel="noopener" href="https://github.com/{{ site.data.profile.github }}" aria-label="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+          {% if site.data.profile.orcid %}<a target="_blank" rel="noopener" href="https://orcid.org/{{ site.data.profile.orcid }}" aria-label="ORCID"><i class="fab fa-orcid"></i></a>{% endif %}
+          <a href="mailto:{{ site.data.profile.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mt-3 d-md-none"></div>
