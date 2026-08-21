@@ -10,8 +10,9 @@ body_attr: 'data-spy="scroll" data-target="#navbar-year" data-offset="100"'
 
 <div class="row">
   <div class="col-12 col-lg-10">
+    <div class="pt-4 small text-muted"><sup>#</sup> Corresponding author</div>
     {% for year in pubs_by_year %}
-    <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+    <h2 class="{% unless forloop.first %}pt-4{% endunless %}" id="year-{{ year.name }}">{{ year.name }}</h2>
     <div class="my-0 p-0 bg-white shadow-sm rounded-xl publication-list">
       {% for item in year.items %}
         {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}

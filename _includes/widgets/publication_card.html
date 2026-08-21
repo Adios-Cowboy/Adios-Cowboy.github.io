@@ -7,7 +7,8 @@
     {% for item in publications limit:include.limit %}
         {% include widgets/publication_item.html item=item first=false last=false %}
     {% endfor %}
-    <h6 class="d-block p-3 mt-0 text-right">
+    <h6 class="d-flex justify-content-between p-3 mt-0">
+        <span class="small text-muted font-weight-normal"><sup>#</sup> Corresponding author</span>
         <a href="{{ 'publications' | relative_url }}">All publications <i class="fas fa-angle-double-right"></i></a>
     </h6>
 </div>
