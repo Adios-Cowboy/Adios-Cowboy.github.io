@@ -5,81 +5,96 @@ navbar_title: Projects
 description: Research and engineering projects led by or involving Wenli Wu.
 ---
 
-<header class="page-hero">
-  <div class="eyebrow">From research to deployment</div>
-  <h1>Projects</h1>
-  <p>Research programs and field systems developed for underwater perception, remote sensing, and intelligent inspection.</p>
-</header>
-
-<section class="mb-4">
-  <h2 class="page-section-title">Research Projects</h2>
-  <div class="project-list">
-    <article class="project-row"><div class="project-date">2025–2026</div><div><h3>National College Students' Innovation and Entrepreneurship Training Program</h3><div class="role-badge">Project Leader</div><p>Multi-task Real-time Underwater Visual Enhancement and Perception System Based on Edge-Cloud Collaboration</p></div></article>
-    <article class="project-row"><div class="project-date">2025–2027</div><div><h3>Guangdong “Climbing Program” Student S&T Innovation Cultivation Fund</h3><div class="role-badge">Member</div><p>Integrated Research on Multi-domain UAV Remote Sensing Fusion and Insurance Loss Assessment under the Rural Revitalization Strategy</p></div></article>
-    <article class="project-row"><div class="project-date">2025–2026</div><div><h3>SCNU “Golden Seed” Key Extracurricular Research Project</h3><div class="role-badge">Core Member</div><p>Sharp Eye on Light: Intelligent PV Panel Defect Detection System Based on Multimodal Remote Sensing Data Fusion</p></div></article>
-    <article class="project-row"><div class="project-date">2025–2026</div><div><h3>Shanwei Municipal Philosophy and Social Science Research Project</h3><div class="role-badge">Member</div><p>Innovation Research on Risk Management for Shanwei Marine Ranches Driven by Low-altitude Intelligent Sensing Technology</p></div></article>
-    <article class="project-row"><div class="project-date">2024–2025</div><div><h3>SCNU “Golden Seed” Key Extracurricular Research Project</h3><div class="role-badge">Member</div><p>Design and Development of a Pavement Pothole Detector Based on Instance Segmentation</p></div></article>
+<h2 class="pt-4">Research Projects</h2>
+<div class="my-3 bg-white shadow-sm rounded-xl">
+  <div class="p-3 border-bottom border-gray">
+    <div class="d-flex flex-wrap justify-content-between"><strong>National College Students' Innovation and Entrepreneurship Training Program</strong><em>2025–2026</em></div>
+    <div class="small text-muted">Project Leader</div>
+    <div class="mt-1">Multi-task Real-time Underwater Visual Enhancement and Perception System Based on Edge-Cloud Collaboration</div>
   </div>
-</section>
+  <div class="p-3 border-bottom border-gray">
+    <div class="d-flex flex-wrap justify-content-between"><strong>Guangdong “Climbing Program” Student S&T Innovation Cultivation Fund</strong><em>2025–2027</em></div>
+    <div class="small text-muted">Member</div>
+    <div class="mt-1">Integrated Research on Multi-domain UAV Remote Sensing Fusion and Insurance Loss Assessment under the Rural Revitalization Strategy</div>
+  </div>
+  <div class="p-3 border-bottom border-gray">
+    <div class="d-flex flex-wrap justify-content-between"><strong>SCNU “Golden Seed” Key Extracurricular Research Project</strong><em>2025–2026</em></div>
+    <div class="small text-muted">Core Member</div>
+    <div class="mt-1">Sharp Eye on Light: Intelligent PV Panel Defect Detection System Based on Multimodal Remote Sensing Data Fusion</div>
+  </div>
+  <div class="p-3 border-bottom border-gray">
+    <div class="d-flex flex-wrap justify-content-between"><strong>Shanwei Municipal Philosophy and Social Science Research Project</strong><em>2025–2026</em></div>
+    <div class="small text-muted">Member</div>
+    <div class="mt-1">Innovation Research on Risk Management for Shanwei Marine Ranches Driven by Low-altitude Intelligent Sensing Technology</div>
+  </div>
+  <div class="p-3">
+    <div class="d-flex flex-wrap justify-content-between"><strong>SCNU “Golden Seed” Key Extracurricular Research Project</strong><em>2024–2025</em></div>
+    <div class="small text-muted">Member</div>
+    <div class="mt-1">Design and Development of a Pavement Pothole Detector Based on Instance Segmentation</div>
+  </div>
+</div>
 
-<section class="featured-project card border-0 shadow-sm bg-white mb-4">
-  <div class="row no-gutters">
-    <div class="col-lg-5"><img src="{{ '/assets/images/projects/water-monitoring.png' | relative_url }}" alt="Automated integrated water monitoring platform" class="featured-project-cover"></div>
-    <div class="col-lg-7 p-4 p-lg-5">
-      <div class="eyebrow">Featured system</div>
-      <h2>A Fully Automated Integrated Water Monitoring Platform Based on 5G and AI with Edge-to-Cloud Collaboration</h2>
+<h2 class="pt-4">Featured Project</h2>
+<div class="my-3 bg-white shadow-sm rounded-xl overflow-hidden">
+  <div class="row no-gutters align-items-center">
+    <div class="col-lg-5 p-3"><img src="{{ '/assets/images/projects/water-monitoring.png' | relative_url }}" alt="Automated integrated water monitoring platform" class="project-main-image"></div>
+    <div class="col-lg-7 p-4">
+      <h4>A Fully Automated Integrated Water Monitoring Platform Based on 5G and AI with Edge-to-Cloud Collaboration</h4>
       <p>By integrating 5G technology with multiple deep learning algorithms and an edge-to-cloud collaborative framework, the system enables precise monitoring of water quality and underwater organisms, route planning, and autonomous navigation. Five field deployments had been completed by July 2025.</p>
-      <h3 class="h6 text-uppercase mt-4">My Role</h3>
-      <ul>
+      <h6>My Role</h6>
+      <ul class="mb-0">
         <li>Led the project and coordinated the team throughout product development.</li>
         <li>Developed the visual system, including underwater enhancement, detection, and edge-cloud deployment.</li>
         <li>Participated in assembly, testing, field deployment, and data collection.</li>
       </ul>
     </div>
   </div>
-</section>
-
-<section class="mb-4">
-  <h2 class="page-section-title">Field Highlights</h2>
-  <div class="field-gallery">
-    {% assign gallery_captions = "Laboratory development|Testing at the campus artificial lake|Serving individual farmers|Serving marine aquaculture cages|Discussion with the CGN Laboratory|Competition award|Featured by SCNU official media|Core technology published in a paper" | split: "|" %}
-    {% for caption in gallery_captions %}
-    <figure><img src="{{ '/assets/images/projects/water-monitoring-gallery/' | append: forloop.index | append: '.png' | relative_url }}" alt="{{ caption }}" loading="lazy"><figcaption>{{ caption }}</figcaption></figure>
-    {% endfor %}
-  </div>
-</section>
-
-<div class="row">
-  <section class="col-lg-6 mb-4">
-    <div class="card border-0 shadow-sm bg-white h-100 p-4">
-      <h2 class="page-section-title mt-0">Project Recognition</h2>
-      <ul class="clean-list">
-        <li><strong>National Top 20</strong> · Qingke Cup Digital & Intelligent Ocean Special Competition</li>
-        <li><strong>First Prize, Guangdong</strong> · 18th Challenge Cup</li>
-        <li><strong>Silver Medal, Guangdong</strong> · China International College Students' Innovation Competition</li>
-        <li><strong>Silver Medal, University</strong> · 15th Challenge Cup Entrepreneurship Competition</li>
-        <li><strong>Flagship Project, Guangdong</strong> · Hundred Counties, Thousand Towns and Ten Thousand Villages Initiative</li>
-      </ul>
-    </div>
-  </section>
-  <section class="col-lg-6 mb-4">
-    <div class="card border-0 shadow-sm bg-white h-100 p-4">
-      <h2 class="page-section-title mt-0">Patents</h2>
-      <ul class="clean-list">
-        <li><strong>An Antenna Recognition Method Based on a Drone-Edge-Cloud Collaboration Model</strong><br><span class="text-muted">Patent application under review · Second author</span></li>
-        <li><strong>Image-based Pest Detection Methods, Devices, and Computer Systems</strong><br><span class="text-muted">Patent application under review · Second author</span></li>
-      </ul>
-    </div>
-  </section>
 </div>
 
-<section class="card border-0 shadow-sm bg-white p-4">
-  <h2 class="page-section-title mt-0">Media Coverage</h2>
-  <div class="media-links">
-    <a href="https://mp.weixin.qq.com/s/RbhJUSTIxA5I4oj7J8NQ7g" target="_blank" rel="noopener">SCNU official media <i class="fas fa-arrow-up-right-from-square"></i></a>
-    <a href="https://www.dxsyb.com/paper/2024/0719/654542.html?t=5753" target="_blank" rel="noopener">China University Student Online <i class="fas fa-arrow-up-right-from-square"></i></a>
-    <a href="https://static.nfnews.com/content/202507/15/c11511903.html?from=timeline&colID=74&appversion=12610&firstColID=74&enterColumnId=74&date=&layer=4" target="_blank" rel="noopener">Nanfang Plus <i class="fas fa-arrow-up-right-from-square"></i></a>
-    <a href="https://www.gdcyl.org/xxb/ShowArticle.asp?ArticleID=254731" target="_blank" rel="noopener">Guangdong Youth League <i class="fas fa-arrow-up-right-from-square"></i></a>
-    <a href="https://mp.weixin.qq.com/s/Q0ZxNSOW5_PdXlN3ZSCvsQ" target="_blank" rel="noopener">Project feature <i class="fas fa-arrow-up-right-from-square"></i></a>
+<h2 class="pt-4">Field Highlights</h2>
+<div class="row">
+  {% assign gallery_captions = "Laboratory development|Testing at the campus artificial lake|Serving individual farmers|Serving marine aquaculture cages|Discussion with the CGN Laboratory|Competition award|Featured by SCNU official media|Core technology published in a paper" | split: "|" %}
+  {% for caption in gallery_captions %}
+  <div class="col-md-6 col-lg-3 mb-3">
+    <figure class="bg-white shadow-sm rounded-xl p-2 h-100">
+      <img src="{{ '/assets/images/projects/water-monitoring-gallery/' | append: forloop.index | append: '.png' | relative_url }}" alt="{{ caption }}" class="project-gallery-image rounded" loading="lazy">
+      <figcaption class="small text-muted p-2">{{ caption }}</figcaption>
+    </figure>
   </div>
-</section>
+  {% endfor %}
+</div>
+
+<div class="row">
+  <div class="col-lg-6">
+    <h2 class="pt-4">Project Recognition</h2>
+    <div class="my-3 bg-white shadow-sm rounded-xl p-3">
+      <ul class="mb-0">
+        <li>National Top 20 · Qingke Cup Digital & Intelligent Ocean Special Competition</li>
+        <li>First Prize, Guangdong · 18th Challenge Cup</li>
+        <li>Silver Medal, Guangdong · China International College Students' Innovation Competition</li>
+        <li>Silver Medal, University · 15th Challenge Cup Entrepreneurship Competition</li>
+        <li>Flagship Project, Guangdong · Hundred Counties, Thousand Towns and Ten Thousand Villages Initiative</li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <h2 class="pt-4">Patents</h2>
+    <div class="my-3 bg-white shadow-sm rounded-xl p-3">
+      <ul class="mb-0">
+        <li><strong>An Antenna Recognition Method Based on a Drone-Edge-Cloud Collaboration Model</strong><br><span class="text-muted">Patent application under review · Second author</span></li>
+        <li class="mt-2"><strong>Image-based Pest Detection Methods, Devices, and Computer Systems</strong><br><span class="text-muted">Patent application under review · Second author</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h2 class="pt-4">Media Coverage</h2>
+<div class="my-3 bg-white shadow-sm rounded-xl p-3">
+  <ol class="mb-0">
+    <li><a href="https://mp.weixin.qq.com/s/RbhJUSTIxA5I4oj7J8NQ7g" target="_blank" rel="noopener">SCNU official media</a></li>
+    <li><a href="https://www.dxsyb.com/paper/2024/0719/654542.html?t=5753" target="_blank" rel="noopener">China University Student Online</a></li>
+    <li><a href="https://static.nfnews.com/content/202507/15/c11511903.html?from=timeline&colID=74&appversion=12610&firstColID=74&enterColumnId=74&date=&layer=4" target="_blank" rel="noopener">Nanfang Plus</a></li>
+    <li><a href="https://www.gdcyl.org/xxb/ShowArticle.asp?ArticleID=254731" target="_blank" rel="noopener">Guangdong Youth League</a></li>
+    <li><a href="https://mp.weixin.qq.com/s/Q0ZxNSOW5_PdXlN3ZSCvsQ" target="_blank" rel="noopener">Project feature</a></li>
+  </ol>
+</div>

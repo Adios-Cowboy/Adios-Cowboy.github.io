@@ -29,21 +29,19 @@ short_bio: >-
     Outside research, I am a drummer and a long-distance runner. I hold Grade II Public Athlete Certification
     (Marathon) from the Chinese Athletics Association.
   </p>
-  <div class="research-interests" aria-label="Research interests">
-    <span>3D Reconstruction</span><span>Underwater Vision</span><span>Efficient Perception</span><span>Edge–Cloud Systems</span>
-  </div>
-
 portrait_url: /assets/images/profile/wenli-wu.png
 portrait_caption: Wenli Wu
 
 education:
   - name: South China Normal University
+    logo: /assets/images/badges/scnu.jpg
     dept: School of Data Science and Engineering
     position: B.Eng. in Internet of Things Engineering
     date: 2023 – Present
 
 experience:
   - name: Robotics and Intelligent Perception Laboratory (RI-Lab)
+    logo: /assets/images/badges/scnu.jpg
     dept: South China Normal University
     position: Research Assistant
     date: May 2026 – Present
