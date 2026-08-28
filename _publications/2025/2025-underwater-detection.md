@@ -2,8 +2,7 @@
 title: "You Sense Only Once Beneath: Ultra-Light Real-Time Underwater Object Detection"
 date: 2025-03-01
 selected: false
-pub: "IEEE International Conference on Real-time Computing and Robotics (RCAR)"
-pub_date: "2025"
+pub: "IEEE International Conference on Real-time Computing and Robotics"
 abstract: "An ultra-light detector for real-time object perception in resource-constrained underwater scenarios."
 cover: /assets/images/publications/underwater-detection.png
 authors:

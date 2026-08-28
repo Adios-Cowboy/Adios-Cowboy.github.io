@@ -3,7 +3,6 @@ title: "DACNet: A Density-Adaptive Counting Network for Real-World Crowd Analysi
 date: 2025-09-01
 selected: true
 pub: "IEEE Sensors Journal"
-pub_date: "2025"
 abstract: "A density-adaptive network for robust crowd counting in real-world scenes without relying on overhead viewpoints."
 cover: /assets/images/publications/dacnet.png
 authors:

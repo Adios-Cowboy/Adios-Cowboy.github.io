@@ -2,8 +2,7 @@
 title: "AbyssSplat: Active-Illumination-Aware Gaussian Splatting for Deep-Sea 3D Reconstruction"
 date: 2026-07-01
 selected: true
-pub: "ACM Multimedia (ACM MM)"
-pub_date: "2026"
+pub: "ACM Multimedia (Oral)"
 abstract: "An active-illumination-aware Gaussian splatting framework for high-fidelity 3D reconstruction in deep-sea environments."
 cover: /assets/images/publications/abysssplat.png
 authors:
