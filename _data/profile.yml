@@ -18,6 +18,11 @@ short_bio: >-
     Advised by Prof. <a href="http://eie.scnu.edu.cn/a/20240301/234.html" target="_blank" rel="noopener">Xiaoyu Tang</a>,
     I joined the <a href="https://github.com/SCNU-RISLAB" target="_blank" rel="noopener">Robotics and Intelligent Perception Laboratory (RI-Lab)</a>
     in October 2023 and have served as a Research Assistant since May 2026.
+    I will join the <a href="https://www.en.cs.zju.edu.cn/" target="_blank" rel="noopener">College of Computer Science and Technology</a>
+    and the <a href="https://www.cad.zju.edu.cn/" target="_blank" rel="noopener">State Key Laboratory of CAD&amp;CG</a>
+    at <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Zhejiang University</a>
+    as an incoming Ph.D. student in September 2027, where I will be advised by
+    Prof. <a href="https://person.zju.edu.cn/0008007" target="_blank" rel="noopener">Kun Zhou</a>.
   </p>
   <p>
     My research focuses on high-fidelity, interactive digital twins and real-time perception in challenging environments,
@@ -33,6 +38,11 @@ portrait_url: /assets/images/profile/wenli-wu.png
 portrait_caption: Wenli Wu
 
 education:
+  - name: Zhejiang University
+    logo: /assets/images/badges/zju.png
+    dept: College of Computer Science and Technology
+    position: Incoming Ph.D. Student
+    date: Starting Sep. 2027
   - name: South China Normal University
     logo: /assets/images/badges/scnu.jpg
     dept: School of Data Science and Engineering
