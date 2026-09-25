@@ -46,14 +46,9 @@ experience:
     date: Starting Sep. 2027
   - name: South China Normal University
     logo: /assets/images/badges/scnu.jpg
-    dept: B.Eng.
-    position: Undergraduate Student
+    dept: Robotics and Intelligent Perception Laboratory (RI-Lab)
+    position: B.Eng. · Research Assistant since May 2026
     date: 2023 – Present
-  - name: Robotics and Intelligent Perception Laboratory (RI-Lab)
-    logo: /assets/images/badges/scnu.jpg
-    dept: South China Normal University
-    position: Research Assistant
-    date: May 2026 – Present
 
 awards:
   - name: First Prize of Comprehensive Scholarship, South China Normal University
