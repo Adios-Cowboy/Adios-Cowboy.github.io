@@ -17,9 +17,9 @@
         <div class="row"><div class="col text-center h4 mb-0">{{ site.data.profile.primary_name }}</div></div>
         {% if site.data.profile.secondary_name %}<div class="row"><div class="col text-center small text-muted mb-2">{{ site.data.profile.secondary_name }}</div></div>{% endif %}
         <div class="row small"><div class="col text-center">{% for position in site.data.profile.positions %}{{ position.name }}<br>{% endfor %}</div></div>
-        <div class="row small"><div class="col text-center"><a class="email-text" href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email | replace: "@", "(at)" }}</a></div></div>
         <div class="row pt-2">
           <div class="col text-center h4">
+            {% if site.data.profile.email %}<a class="px-1 no-break" href="mailto:{{ site.data.profile.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a>{% endif %}
             {% if site.data.profile.github %}<a class="px-1 no-break" target="_blank" rel="noopener" href="https://github.com/{{ site.data.profile.github }}" aria-label="GitHub"><i class="fab fa-github"></i></a>{% endif %}
             {% if site.data.profile.orcid %}<a class="px-1 no-break" target="_blank" rel="noopener" href="https://orcid.org/{{ site.data.profile.orcid }}" aria-label="ORCID"><i class="fab fa-orcid"></i></a>{% endif %}
             {% if site.data.profile.google_scholar %}<a class="px-1 no-break" target="_blank" rel="noopener" href="https://scholar.google.com/citations?user={{ site.data.profile.google_scholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
