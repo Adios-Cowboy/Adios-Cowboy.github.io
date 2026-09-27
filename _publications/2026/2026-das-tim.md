@@ -13,5 +13,6 @@ authors:
   - Chengxi Zhang
   - Zhijian He
   - "Jiewen Feng#"
-links: {}
+links:
+  Paper: https://doi.org/10.1109/TIM.2026.3736151
 ---
